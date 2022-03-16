@@ -19,3 +19,7 @@ programming_dictionary = {}
 # Edit content in dictionary
 programming_dictionary["Bug"] = "A moth in the computer"
 
+# Loop through a dictionary
+for key in programming_dictionary:
+  print(key)
+  print(programming_dictionary[key])
